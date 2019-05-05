@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "c69b8516-4a72-441d-a7df-4af1ff7c1626",
+		"name": "testcase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://www.kuaidi100.com/query?postid=11111111111&type=yunda",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.kuaidi100.com/query?postid=11111111111&type=yunda",
+					"protocol": "http",
+					"host": [
+						"www",
+						"kuaidi100",
+						"com"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "postid",
+							"value": "11111111111"
+						},
+						{
+							"key": "type",
+							"value": "yunda"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
